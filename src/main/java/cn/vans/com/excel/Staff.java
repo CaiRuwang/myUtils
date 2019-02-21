@@ -8,20 +8,7 @@ public class Staff {
     private String workUnit;
     private String brothPlace;
 
-    public Staff(String userName, String age, String sex) {
-        this.userName = userName;
-        this.age = age;
-        this.sex = sex;
-    }
 
-    public Staff(String userName, String age, String sex, String workAddrs, String workUnit, String brothPlace) {
-        this.userName = userName;
-        this.age = age;
-        this.sex = sex;
-        this.workAddrs = workAddrs;
-        this.workUnit = workUnit;
-        this.brothPlace = brothPlace;
-    }
 
     public String getUserName() {
         return userName;
